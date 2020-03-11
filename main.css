@@ -10,7 +10,7 @@ html {
   color: white;
   font-size: 20px;
   font-family: "Courier";
-  padding: 14px 16px;
+  padding: 200px 200px;
 }
 
 #container {
@@ -24,6 +24,12 @@ html {
   50% { 
     background-color: white; 
   }
+}
+
+.row {
+  font-family: "Courier";
+  color: white;
+  padding: 5px 5px;
 }
 
 .css-typing p:nth-child(1) {
@@ -85,6 +91,5 @@ input, textarea {
 }
 
 #form {
-color: white
+  color: white
 }
-
