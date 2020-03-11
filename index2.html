@@ -22,7 +22,7 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5X23me20uA4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oGsAMr0mZ9I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  <div id="after_submit"></div>
-<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+<form id="contact_form" action="#" method="GET" enctype="multipart/form-data">
   <div class="row">
     <label class="required" for="name">Your name:</label><br />
     <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
@@ -38,10 +38,7 @@
     <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
     <span id="message_validation" class="error_message"></span>
   </div>
-    
     <input id="submit_button" type="submit" value="Send email" />
 </form>
-        </body>
-      
-
+</body>
 </html>
