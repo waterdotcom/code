@@ -1,9 +1,12 @@
 // List of sentences
+
+d = new Date();
+const date = d.toString().substring(15, 33);
+
 var _CONTENT = [ 
-	"Twinkle, twinkle, little star", 
-	"How I wonder what you are", 
-	"Up above the world so high", 
-	"Like a diamond in the sky"
+	"18.03.1983", 
+    date,
+    "16ºC, Partly Cloudy"
 ];
 
 // Current sentence being processed
